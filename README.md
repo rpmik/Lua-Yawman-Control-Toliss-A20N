@@ -90,7 +90,7 @@ The following assignments are not completely documented at this time. It's best 
 	* Right Bumper = Auto-Throttle Button?
 
 * DPAD Down plus
-	* Right Bumper = Take Off Button (Check Config)
+	* Right Bumper = AP 1 Disconnect (Side stick)
 
 # TODO
 * Finish A20N assignments.
