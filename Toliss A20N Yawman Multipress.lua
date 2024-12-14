@@ -147,12 +147,12 @@ function multipressTolissA20N_buttons()
 			set_button_assignment(POV_DOWN, dref_FlightControls.pitchTrimDown)
 			set_button_assignment(POV_LEFT, dref_LRStandard.glanceLeft)
 			set_button_assignment(POV_RIGHT, dref_LRStandard.glanceRight)
-			set_button_assignment(POV_CENTER, dref_LRStandard.defaultView)
+			set_button_assignment(POV_CENTER, NoCommand)
 			--set_button_assignment(THUMBSTICK_CLK,"sim/flight_controls/brakes_toggle_regular")
 
         end 
         
-        -- Get button status
+        -- Get button status every frame
     
         right_bumper_pressed = button(RIGHT_BUMPER)
         left_bumper_pressed = button(LEFT_BUMPER)
@@ -178,13 +178,15 @@ function multipressTolissA20N_buttons()
 		
 -- Start expanded control logic
 
-		if dpad_center_pressed and not last_button(DPAD_CENTER) then
+		if dpad_center_pressed and not sp6_pressed and not DPAD_PRESSED then
 			if not CHASE_VIEW then
 				command_once(dref_LRStandard.chaseView)
 				CHASE_VIEW = true
+				DPAD_PRESSED = true
 			elseif CHASE_VIEW then
 				command_once(dref_LRStandard.defaultView)
 				CHASE_VIEW = false
+				DPAD_PRESSED = true
 			end
 		end
 	
@@ -305,8 +307,6 @@ function multipressTolissA20N_buttons()
 		if sp6_pressed and last_button(SIXPACK_6) then
 			set_button_assignment(DPAD_LEFT, dref_APAdjust.Baro1Down)
 			set_button_assignment(DPAD_RIGHT, dref_APAdjust.Baro1Up)
-			set_button_assignment(DPAD_CENTER, dref_APAdjust.Baro1Std)
-
 			set_button_assignment(RIGHT_BUMPER, dref_APVSHold)
 			--set_button_assignment(DPAD_CENTER,"sim/autopilot/vertical_speed")
 
@@ -317,8 +317,10 @@ function multipressTolissA20N_buttons()
 			elseif dpad_down_pressed then
 				meterA20NInteraction(DPAD_PRESSED, dref_APAdjust.VSDown, dref_APAdjust.VSDown, 1.0, 3.0)
 				DPAD_PRESSED = true
+			elseif dpad_center_pressed then
+				command_once(dref_APAdjust.Baro1Std)
+				DPAD_PRESSED = true
 			end
-			
 		end
 
 -- parking brake			
@@ -426,7 +428,7 @@ function multipressTolissA20N_buttons()
 			MULTI_SIXPACK_PRESSED = false
 		end 
 		
-		if not dpad_up_pressed and not dpad_left_pressed and not dpad_right_pressed and not dpad_down_pressed then
+		if not dpad_up_pressed and not dpad_left_pressed and not dpad_right_pressed and not dpad_down_pressed and not dpad_center_pressed then
 			DPAD_PRESSED = false
 		end
 		
@@ -476,8 +478,8 @@ end
 if PLANE_ICAO == "A20N" then 
 	clear_all_button_assignments()
 	
-	--set_axis_assignment(POLE_RIGHT, "reverse", "reverse")
-	--set_axis_assignment(POLE_RIGHT, "speedbrakes", "normal") -- Toliss expects Normal
+--	set_axis_assignment(POLE_LEFT, "reverse", "reverse")
+--	set_axis_assignment(POLE_RIGHT, "speedbrakes", "normal") -- Toliss expects Normal
 --set_axis_assignment(STICK_X, "roll", "normal" )
 --set_axis_assignment(STICK_Y, "pitch", "normal" )
 
