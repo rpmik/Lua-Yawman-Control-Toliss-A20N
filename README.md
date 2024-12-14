@@ -16,7 +16,7 @@ Note that the current script does not modify your axes. You'll need to set up yo
 
 Save _Toliss A20N Yawman Multipress.lua_ to /X-Plane 12/Resources/plugins/FlyWithLua/Scripts
 
-Assignments closely matches Yawman's PMDG 777 mappings but there are notable differences. See their [discord](https://discord.gg/dcpTc5KP).
+Assignments closely matches Yawman's PMDG 777 mappings but there are notable differences. See their Yawman's [discord](https://discord.gg/dcpTc5KP).
 
 # Assignments are In Work!
 Sixpack 1, 2, 3, 4, 5, and 6 are referred to as SP1, SP2, SP3 etc. These are the two rows of three buttons, where the upper-most left button is 1 and the lower-most right button is 6.
