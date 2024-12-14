@@ -45,9 +45,9 @@ The following assignments are not completely documented at this time. It's best 
 * SP 2 plus
 	* DPAD Down = Approach Button
 	* DPAD Left = Localizer Button (I think)
-	* DPAD Up = VNAV Button
-	* DPAD Right = LNAV Button
-	* Right Bumper = Flight Director
+	* DPAD Up = Pull Alt Knob (Dupe; need to reassign)
+	* DPAD Right = Pull Hdg Knob (Dupe; need to reassign)
+	* Right Bumper = Flight Director 1
 	* SP5 = Red Flash Light
 * SP3 plus
 	* DPAD Up = AP Alt Select Up
