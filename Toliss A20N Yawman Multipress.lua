@@ -476,8 +476,8 @@ end
 if PLANE_ICAO == "A20N" then 
 	clear_all_button_assignments()
 	
-	set_axis_assignment(POLE_RIGHT, "reverse", "reverse")
-	set_axis_assignment(POLE_RIGHT, "speedbrakes", "normal") -- Toliss expects Normal
+	--set_axis_assignment(POLE_RIGHT, "reverse", "reverse")
+	--set_axis_assignment(POLE_RIGHT, "speedbrakes", "normal") -- Toliss expects Normal
 --set_axis_assignment(STICK_X, "roll", "normal" )
 --set_axis_assignment(STICK_Y, "pitch", "normal" )
 
