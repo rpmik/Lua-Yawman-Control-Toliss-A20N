@@ -42,7 +42,7 @@ The following assignments are not completely documented at this time. It's best 
 	* DPAD Down = Speed Down
 	* DPAD Right = Speed Knob Pull
   * DPAD Left = Speed Knob Push
-	* Right Bumper = FLCH Button
+	* Right Bumper = Auto Throttle Button
 * SP 2 plus
 	* DPAD Down = Approach Button
 	* DPAD Left = Localizer Button (I think)
