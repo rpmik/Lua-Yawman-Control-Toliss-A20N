@@ -62,7 +62,7 @@ The following assignments are not completely documented at this time. It's best 
 	* DPAD Down = Hdg Down
         * DPAD Left = Push Hdg Knob
         * DPAD Right = Pull Hdg Knob
-	* Right Bumper = Hdg Button
+	* Right Bumper = Push Hdg Knob (Dupe; need to reassign)
 * SP6 plus
 	* DPAD Up = VS Down
 	* DPAD Down = VS Up
