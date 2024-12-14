@@ -29,13 +29,13 @@ The following assignments are not completely documented at this time. It's best 
 * DPAD Left = Zoom Out
 * DPAD Right = Zoom In
 * DPAD Center = Chase or Aircraft's Default View
-* ~~Sixpack #2 (SP2) = brakes regular hold~~
+* Stick, Center Click = Brakes
 * POV Up = Pitch Trim Up
 * POV Down = Pitch Trim Down		
 * POV Left = Glance Left
 * POV Right = Glance Right
-* Right Bumper = Auto Pilot Engage (On/Off)
-* Stick, Center Click = Brakes
+* Right Bumper = Auto Pilot 1 Engage (On/Off)
+
 
 * SP1 plus
 	* DPAD Up = Speed Up
