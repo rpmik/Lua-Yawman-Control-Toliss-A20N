@@ -70,11 +70,11 @@ The following assignments are not completely documented at this time. It's best 
 	* Right Bumper = VS Button
 * LEFT Bumper then
 	* Wheel Up/Down = Brakes Max (Parking Brake)
-	* SP1 = View, Glareshield
-	* SP2 = View, Radios; Radar; EPR
-	* SP3 = Nav computer
-	* SP4 = Overhead panel
-	* SP5 = Upper Overhead panel
+	* SP1 = View, Overhead Panel
+	* SP2 = View, Radios, Transponder 
+	* SP3 = View, EFB
+	* SP4 = View, Glarshield
+	* SP5 = View, FMS
 	* SP6 = Pilot's view of throttles
 	
 * DPAD Up plus
