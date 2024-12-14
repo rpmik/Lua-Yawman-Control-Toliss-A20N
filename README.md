@@ -69,7 +69,7 @@ The following assignments are not completely documented at this time. It's best 
 	* DPAD Left = Barometric Down
 	* DPAD Right = Barometric Up
 	* DPAD Center = Barometric Standard
-	* Right Bumper = VS Button
+	* Right Bumper = Push VS Knob
 * LEFT Bumper then
 	* Wheel Up/Down = Brakes Max (Parking Brake)
 	* SP1 = View, Overhead Panel
