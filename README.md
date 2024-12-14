@@ -34,6 +34,7 @@ The following assignments are not completely documented at this time. It's best 
 * POV Left = Glance Left
 * POV Right = Glance Right
 * Right Bumper = Auto Pilot Engage (On/Off)
+* Stick, Center Click = Brakes
 
 * SP1 plus
 	* DPAD Up = Speed Up
@@ -86,7 +87,7 @@ The following assignments are not completely documented at this time. It's best 
 	* POV Down = Straight Down
 	* DPAD Left = View, Pilot's View
 	* DPAD Right = View, Co-Pilot's View
-	* Right Bumper = TOGA/Auto-Throttle Toggle
+	* Right Bumper = Auto-Throttle Button?
 
 * DPAD Down plus
 	* Right Bumper = Take Off Button (Check Config)
