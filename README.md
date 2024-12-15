@@ -19,14 +19,14 @@ Save _Toliss A20N Yawman Multipress.lua_ to /X-Plane 12/Resources/plugins/FlyWit
 
 Assignments closely matches Yawman's PMDG 777 mappings but there are notable differences. See Yawman's [discord](https://discord.gg/dcpTc5KP).
 
+# TODO
+* Fix Barometer STD Push/Pull
+* Implement radio tuning
+
 # Assignments are In Work!
 Sixpack 1, 2, 3, 4, 5, and 6 are referred to as SP1, SP2, SP3 etc. These are the two rows of three buttons, where the upper-most left button is 1 and the lower-most right button is 6.
 
 Some Yawman documentation refer to these as MF 1L (SP1), MF 1C (SP2), MF 1R (SP3), MF 2L (SP4), MF 2C (SP5), MF 2R (SP6)
-
-# TODO
-* Fix Barometer STD Push/Pull
-* Implement radio tuning
 
 # Assignments
 
