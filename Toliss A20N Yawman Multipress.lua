@@ -312,9 +312,10 @@ function multipressTolissA20N_buttons()
 			set_button_assignment(DPAD_LEFT, dref_APAdjust.Baro1Down)
 			set_button_assignment(DPAD_RIGHT, dref_APAdjust.Baro1Up)
 			set_button_assignment(RIGHT_BUMPER, dref_APVSHold)
+			--set_button_assignment(DPAD_CENTER, "AirbusFBW/BaroStdCapt")
 			--set_button_assignment(DPAD_CENTER,"sim/autopilot/vertical_speed")
 
-			
+			DataRef("dref_BaroStdCap", "AirbusFBW/BaroStdCapt","readonly")
 			if dpad_up_pressed then
 				meterA20NInteraction(DPAD_PRESSED, dref_APAdjust.VSUp, dref_APAdjust.VSUp, 1.0, 3.0) -- at around two seconds, use larger increment
 				DPAD_PRESSED = true
@@ -322,10 +323,14 @@ function multipressTolissA20N_buttons()
 				meterA20NInteraction(DPAD_PRESSED, dref_APAdjust.VSDown, dref_APAdjust.VSDown, 1.0, 3.0)
 				DPAD_PRESSED = true
 			elseif dpad_center_pressed then
-				--Need to implement barometer push and pull depending on state 
-				--DataRef("dref_Barometer_Setting","sim/cockpit/misc/barometer_setting","writable")
+				if dref_BaroStdCap == 1 then
+					meterA20NInteraction(DPAD_PRESSED, dref_APAdjust.Baro1Push, dref_APAdjust.Baro1Push, 1.0, 3.0)
+				else
+					meterA20NInteraction(DPAD_PRESSED, dref_APAdjust.Baro1Pull, dref_APAdjust.Baro1Pull, 1.0, 3.0)
+				end
 				DPAD_PRESSED = true
 			end
+			
 		end
 
 -- parking brake			
