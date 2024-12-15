@@ -10,6 +10,8 @@
 ]]
 -- use local to prevent other unknown Lua scripts from overwriting variables (or vice versa)
 
+local scriptedAircraft = "A20N"
+
 local dref_lnav = "AirbusFBW/PullHDGSel"
 local dref_vnav = "AirbusFBW/PullAltitude"
 local dref_APPR = "AirbusFBW/APPRbutton"
@@ -122,8 +124,8 @@ local CurFrame = 0.0
 
 
 function multipressTolissA20N_buttons() 
-    -- if aircraft is an Embraer E-175 then procede
-    if PLANE_ICAO == "A20N" then 
+    -- if aircraft is an A20N then procede
+    if PLANE_ICAO == scriptedAircraft then 
         FRAME_COUNT = FRAME_COUNT + 1.0  
 		-- Base Config buttons that should almost always get reassigned except during a press
         if not STILL_PRESSED then -- avoid overwriting assignments during other activity
@@ -475,7 +477,7 @@ end
 
 
 -- Don't mess with other configurations
-if PLANE_ICAO == "A20N" then 
+if PLANE_ICAO == scriptedAircraft then 
 	clear_all_button_assignments()
 	
 --	set_axis_assignment(POLE_LEFT, "reverse", "reverse")
