@@ -41,7 +41,9 @@ local dref_APAdjust = {
 	VSDown = "sim/autopilot/vertical_speed_down",
 	Baro1Up = "sim/instruments/barometer_up",
 	Baro1Down = "sim/instruments/barometer_down",
-	Baro1Std = "sim/instruments/barometer_std"
+	Baro1Std = "sim/instruments/barometer_std",
+	Baro1Push = "toliss_airbus/capt_baro_push",
+	Baro1Pull = "toliss_airbus/capt_baro_pull"
 }
 
 local dref_AutoThrottle = "AirbusFBW/ATHRbutton"
@@ -320,7 +322,8 @@ function multipressTolissA20N_buttons()
 				meterA20NInteraction(DPAD_PRESSED, dref_APAdjust.VSDown, dref_APAdjust.VSDown, 1.0, 3.0)
 				DPAD_PRESSED = true
 			elseif dpad_center_pressed then
-				command_once(dref_APAdjust.Baro1Std)
+				--Need to implement barometer push and pull depending on state 
+				--DataRef("dref_Barometer_Setting","sim/cockpit/misc/barometer_setting","writable")
 				DPAD_PRESSED = true
 			end
 		end
