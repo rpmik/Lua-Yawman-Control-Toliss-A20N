@@ -24,6 +24,12 @@ Sixpack 1, 2, 3, 4, 5, and 6 are referred to as SP1, SP2, SP3 etc. These are the
 
 Some Yawman documentation refer to these as MF 1L (SP1), MF 1C (SP2), MF 1R (SP3), MF 2L (SP4), MF 2C (SP5), MF 2R (SP6)
 
+# TODO
+* Fix Barometer STD Push/Pull
+* Implement radio tuning
+
+# Assignments
+
 The following assignments are not completely documented at this time. It's best to review the script for assignments until the coder gets his house in order.
 
 * DPAD Left = Zoom Out
@@ -93,6 +99,3 @@ The following assignments are not completely documented at this time. It's best 
 * DPAD Down plus
 	* Right Bumper = AP 1 Disconnect (Side stick)
 
-# TODO
-* Finish A20N assignments.
-* Implement radio tuning
