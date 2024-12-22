@@ -21,7 +21,6 @@ Save _Toliss A20N Yawman Multipress.lua_ to /X-Plane 12/Resources/plugins/FlyWit
 Assignments closely matches Yawman's PMDG 777 mappings but there are notable differences. See Yawman's [discord](https://discord.gg/dcpTc5KP).
 
 # TODO
-* Fix Barometer STD Push/Pull
 * Implement radio tuning
 
 # Assignments are In Work!
