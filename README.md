@@ -1,7 +1,7 @@
 # Lua-Yawman-Control-Toliss-A20N
 
 XPlane 12 FlyWithLua Script for Multifunction Yawman Arrow Controls
-* Also see [the script for the Toliss A320N](https://github.com/rpmik/Lua-Yawman-Control-Toliss-A321x/)
+* Also see [the script for the Toliss A321 (including the A21N/Neo)](https://github.com/rpmik/Lua-Yawman-Control-Toliss-A321x/)
 * Also see [the script for the LR 737-800](https://github.com/rpmik/Lua-Yawman-Control-LR-B738).
 * Also see [the script for the Felis 747-200](https://github.com/rpmik/Lua-Controller-Mapping-Felis-B742).
 * Also see [the script for the Flight Factor 777-200 v2](https://github.com/rpmik/Lua-Yawman-Control-Flight-Factor-B772).
