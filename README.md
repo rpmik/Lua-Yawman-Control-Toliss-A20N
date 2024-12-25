@@ -2,7 +2,7 @@
 
 XPlane 12 FlyWithLua Script for Multifunction Yawman Arrow Controls
 * [Full and Most Up To Date List](https://www.distortions.net/yawman-arrow-controller-xplane/#:~:text=All%20the%20Scripts%20(Github%20Downloads)) (at distortions.net)
-* Also see [the script for the Toliss A340-600][https://github.com/rpmik/Lua-Yawman-Control-Toliss-A346/]
+* Also see [the script for the Toliss A340-600](https://github.com/rpmik/Lua-Yawman-Control-Toliss-A346/)
 * Also see [the script for the Toliss A321 (including the A21N/Neo)](https://github.com/rpmik/Lua-Yawman-Control-Toliss-A321x/)
 * Also see [the script for the LR 737-800](https://github.com/rpmik/Lua-Yawman-Control-LR-B738).
 * Also see [the script for the Felis 747-200](https://github.com/rpmik/Lua-Controller-Mapping-Felis-B742).
